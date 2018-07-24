@@ -8,6 +8,17 @@
 
 // Aquí tu código
 
+// arrow function no funciona:
+// let convierteEurosEnPesetas = (cifra) => { typeof(cifra) === 'number' ? cifra * 168 : throw new Error('convierteEurosEnPesetas debe recibir un number')};
+
+function convierteEurosEnPesetas(cifra) {
+    if (typeof cifra==='number') {
+        return cifra*168;
+    }else{
+        throw new Error('convierteEurosEnPesetas debe recibir un number');
+    }
+}
+
 // Hasta aquí
 
 

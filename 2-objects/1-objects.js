@@ -6,6 +6,15 @@
 
 // Aquí tu código
 
+	let ordenador = 
+		{ 	marca: 'La pava',
+			tipo: 'portátil',
+			perifericos: ['whatever','touchPad'],
+			almacenamiento: { 
+
+				discos: ['SSD', 'HDD'],
+				maestro: 0}
+			};
 
 
 // Hasta aquí
@@ -53,4 +62,3 @@ if (ordenador.almacenamiento.discos[ ordenador.almacenamiento.maestro ] === 'SSD
 } else {
     console.log('suspendes');
 }
-

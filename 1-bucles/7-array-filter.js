@@ -35,3 +35,6 @@ let gente = [{
     },
 ]
 
+let filtrado = gente.filter(persona => persona.nombre.charAt(0).toUpperCase() == 'J' && persona.edad < 40);
+	
+	console.log(filtrado);

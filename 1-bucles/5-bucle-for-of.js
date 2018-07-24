@@ -33,3 +33,18 @@ let gente = [{
         edad: 10
     },
 ]
+
+function firstletter (nomb) {
+
+	return nomb.charAt(0).toUpperCase();
+	}
+	
+	
+
+for (let persona of gente) {
+
+	if (firstletter(persona.nombre) == "J") {
+
+	console.log(persona.nombre);
+	}
+}

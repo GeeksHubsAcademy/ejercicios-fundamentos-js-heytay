@@ -33,3 +33,5 @@ let gente = [{
     },
 ]
 
+	let filtrado = gente.filter(persona => persona.nombre.length === 4);
+	console.log(filtrado);

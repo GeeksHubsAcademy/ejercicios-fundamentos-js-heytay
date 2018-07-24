@@ -6,6 +6,18 @@
 
 // Aquí tu código
 
+	let obj = {
+		
+			a: {
+				b: true,
+				c: [0,1]
+				},
+			d: 6,
+			f: 'holi'
+			
+	};
+
+
 // Hasta aquí
 
 // TEST 1

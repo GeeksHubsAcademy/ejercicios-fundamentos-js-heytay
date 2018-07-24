@@ -6,7 +6,19 @@
 
 // Aquí tu código
 
-
+	let arr = [
+ 
+		{name: 'pepito',
+		age: 25},
+	
+		{name: 'pepito',
+		age: 30},
+	
+		{name: 'J',
+		age: 23}
+	
+		];
+		
 // Hasta aquí
 
 // TEST 1
